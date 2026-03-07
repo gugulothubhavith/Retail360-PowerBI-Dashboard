@@ -80,32 +80,48 @@ The development lifecycle incorporated advanced end-to-end data processing:
 ## 📈 DAX Measures
 
 Implemented complex DAX logic leveraging built-in time-intelligence for high-level enterprise reporting:
+**Total Sales Calculation**
 ```dax
--- Total Sales Calculation
 Total Sales = SUM('Global_Superstore2'[Sales])
+```
 
--- Total Profit Calculation
+**Total Profit Calculation**
+```dax
 Total Profit = SUM('Global_Superstore2'[Profit])
+```
 
--- Total Orders Count
+**Total Orders Count**
+```dax
 Total Orders = DISTINCTCOUNT('Global_Superstore2'[Order ID])
+```
 
--- Profit Margin Percentage
+**Profit Margin Percentage**
+```dax
 Profit Margin = DIVIDE([Total Profit], [Total Sales], 0)
+```
 
--- Average Discount Applied
+**Average Discount Applied**
+```dax
 Average Discount = AVERAGE('Global_Superstore2'[Discount])
+```
 
--- Year To Date (YTD) Sales
+**Year To Date (YTD) Sales**
+```dax
 Year To Date Sales = TOTALYTD([Total Sales], 'Global_Superstore2'[Order Date])
+```
 
--- Previous Year Sales
+**Previous Year Sales**
+```dax
 Previous Year Sales = CALCULATE([Total Sales], SAMEPERIODLASTYEAR('Global_Superstore2'[Order Date]))
+```
 
--- Year-Over-Year (YOY) Growth Percentage
+**Year-Over-Year (YOY) Growth Percentage**
+```dax
 YOY Growth % = DIVIDE([Total Sales] - [Previous Year Sales], [Previous Year Sales], 0)
+```
 
--- Dynamic Date Table Generation
+**Dynamic Date Table Generation**
+```dax
 DateTable = 
 ADDCOLUMNS(
     CALENDAR(
