@@ -24,7 +24,8 @@
 | **Intern Name** | Gugulothu Bhavith |
 | **University/Institute** | JNTUH University College of Engineering Palair |
 | **AICTE Student ID** | STU696c4be1c29041768704993 |
-| **Internship Title** | MICROSOFT ELEVATE \| Power BI \| 4-WEEK INTERNSHIP \| February 2026 BATCH |
+| **Internship Title** | MICROSOFT ELEVATE \| Power BI \| 4-Week Virtual Internship |
+| **Duration** | 16 February 2026 – 12 March 2026 (Ongoing) |
 
 ---
 
