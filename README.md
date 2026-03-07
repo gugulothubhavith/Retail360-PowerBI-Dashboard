@@ -166,7 +166,6 @@ The expansive dashboard leverages Power BI’s most advanced analytical interact
 
 ```tree
 📦 Retail360-Global-Sales-Intelligence
- ┣ 📜 Retail360 – Global Sales Intelligence Dashboard.pbix  # The core Power BI Project file
  ┣ 📜 README.md                                             # Detailed Project Documentation
  ┗ 📂 Assets/                                               # Dashboard screenshots and assets 
 ```
@@ -218,15 +217,15 @@ Based on analytical modeling within the dashboard:
 
 ---
 
-## ⚙️ How to Run the Project
+## ⚙️ How to Review the Project
 
-1. Download and Install **[Power BI Desktop](https://powerbi.microsoft.com/desktop/)**.
-2. Clone this repository to your local machine:
+1. Clone this repository to your local machine:
    ```bash
    git clone https://github.com/gugulothubhavith/Retail360-PowerBI-Dashboard.git
    ```
-3. Navigate to the directory and open `Retail360 – Global Sales Intelligence Dashboard.pbix`.
-4. Interact with the visuals, drillthroughs, and bookmarks to navigate the analytics!
+2. Review the high-resolution dashboard screenshots located in the `Assets/` directory.
+3. Review the provided DAX formulas in this documentation to understand the backend analytical logic used in this project.
+
 
 ---
 
