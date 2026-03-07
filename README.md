@@ -67,7 +67,7 @@ Data processing follows best practices by implementing an optimized **Star Schem
 
 ---
 
-## ⚙️ Methodology & Implementation Steps
+## ⚙️ Implementation Steps
 
 The development lifecycle incorporated advanced end-to-end data processing:
 
@@ -75,7 +75,10 @@ The development lifecycle incorporated advanced end-to-end data processing:
 - **Import:** Connected to CSVs and loaded raw data using Power BI's `Get Data`.
 - **Power Query:** Extensively cleaned datasets by formatting columns, ensuring date/numeric type conformity, removing duplicates, identifying anomalous outliers, and handling missing metadata.
 
-### 2. Advanced DAX (Data Analysis Expressions) Measures
+---
+
+## 📈 DAX Measures
+
 Implemented complex DAX logic leveraging built-in time-intelligence for high-level enterprise reporting:
 ```dax
 -- Total Sales Calculation
@@ -116,14 +119,23 @@ ADDCOLUMNS(
 )
 ```
 
-### 3. Executed Visuals & Layout Strategy
-The dashboard's visual architecture was meticulously designed for actionable insights:
+---
+
+## 🎨 Dashboard Design
+
+Adhering strictly to modern visual design and analytical refinement principles:
+- **Refinement & Polish:** Visuals are polished with highly consistent corporate color themes and perfectly clear alignment/titles. All cross-filtering and slicer interactions have been rigorously validated for intuitive performance.
+- **Zero-Scroll, One-Page Summary:** The main view fits entirely on a single screen without scrolling to present critical metrics immediately.
+- **Data-to-Ink Ratio:** Eliminated unnecessary visual clutter like background gridlines. Pie charts are strictly limited to <8 slices to guarantee instant cognitive readability.
+
+---
+
+## 🚀 Advanced Features
+
+The expansive dashboard leverages Power BI’s most advanced analytical interactivity:
 - **Comprehensive Overview Page:** Developed a structured main page anchoring massive KPI cards for Total Sales, Profit, Margin, and Year-to-Date (YTD) versus Last Year (LY) performance. Configured advanced line charts to visualize temporal sales trends alongside dedicated bar charts breaking down performance by geography and product category. Adhering to cognitive UX standards, all primary KPIs are strategically localized at the top-left to immediately capture stakeholder attention.
 - **Deep Dive Analytical Pages:** Fully implemented hierarchical drilldown architecture. Users interacting with a top-level product category bar chart on the main overview can seamlessly drill through to a secluded detail page. This deeper view isolates specific sub-category sales, inventory health, and logistical order details, allowing users to intuitively navigate from a summary view down to a highly filtered contextual report.
 - **Geographical & Trend Mapping:** Integrated geospatial map visuals to accurately plot revenue density across dispersed countries and states. Leveraged dense clustered column charts and intuitive treemaps to explicitly highlight top-grossing products at a glance.
-
-### 4. Advanced Interactivity & High-End Techniques
-The project pushes the boundaries of standard reporting by leveraging Power BI’s most advanced analytical capabilities:
 - **Dynamic KPI Selectors:** Engineered disconnected slicer tables utilizing `SWITCH` and `SELECTEDVALUE` DAX logic. This allows users to actively toggle the primary metric of the dashboard (shifting seamlessly between *Sales*, *Units*, or *Profit*), dynamically updating massive KPI cards globally without requiring multiple separate visuals.
 - **Narrative Storytelling via Bookmarks:** Programmed complex report states as Bookmarks to forge a guided analytical narrative. Users can click through "Annual Summary" and "Quarterly Trend" states identically to an interactive slide deck, surfacing high-level insights instantaneously.
 - **Context-Sensitive Drillthroughs:** Configured specialized drillthrough fields targeting precise grain data (e.g., specific Product Categories or Countries). Right-clicking any visual perfectly filters a dedicated dashboard page tailored explicitly to that single slice of data.
@@ -131,15 +143,6 @@ The project pushes the boundaries of standard reporting by leveraging Power BI�
 - **Responsive Custom Tooltips:** Designed entirely bespoke report-page tooltips. Rather than standard text pop-ups, hovering over a yearly bar chart visually renders an entire mini-dashboard containing dense quarterly sub-breakdowns and auxiliary data.
 - **AI-Powered Smart Narratives:** Deployed Power BI's Smart Narrative visual. This AI integration actively interprets the data model to auto-generate contextual, human-readable insight summaries (e.g., *"Sales grew by 15% in FY2025, driven heavily by North American tech accessories"*), embedding automatic storytelling directly into the UI.
 - **Interactive Dimension Filtering:** Built an interconnected grid of intuitive slicers targeting date ranges (leveraging comparative relative date filtering), sweeping regions, and complex product hierarchies with full drill-down capabilities.
-
----
-
-## 🎨 Dashboard Design UX & Refinement
-
-Adhering strictly to modern visual design and analytical refinement principles:
-- **Refinement & Polish:** Visuals are polished with highly consistent corporate color themes and perfectly clear alignment/titles. All cross-filtering and slicer interactions have been rigorously validated for intuitive performance.
-- **Zero-Scroll, One-Page Summary:** The main view fits entirely on a single screen without scrolling to present critical metrics immediately.
-- **Data-to-Ink Ratio:** Eliminated unnecessary visual clutter like background gridlines. Pie charts are strictly limited to <8 slices to guarantee instant cognitive readability.
 
 ---
 
@@ -151,6 +154,8 @@ Adhering strictly to modern visual design and analytical refinement principles:
  ┣ 📜 README.md                                             # Detailed Project Documentation
  ┗ 📂 Assets/                                               # Dashboard screenshots and assets 
 ```
+
+---
 
 ## 📸 Dashboard Snapshots
 
@@ -174,7 +179,38 @@ Here is a glimpse of the Retail360 Global Sales Intelligence Dashboard:
 ### 6. Tooltip Sales
 ![Tooltip Sales](Assets/Tooltip%20Sales.png)
 
-*(Note: To view the dashboard interactively, you will need to open the `.pbix` file using [Power BI Desktop](https://powerbi.microsoft.com/desktop/).)*
+---
+
+## 💡 Key Insights
+
+Based on analytical modeling within the dashboard:
+- **Technology generated the highest revenue globally.**
+- **The Consumer segment contributed the largest share of total sales.**
+- **The United States was the dominant market** in terms of overall revenue.
+- **Discount-heavy products showed significantly lower profit margins.**
+- **A small group of clients contributed a disproportionately large share of revenue.**
+
+---
+
+## 🛠️ Tools & Technologies
+
+- **Microsoft Power BI Desktop**
+- **Power Query (Data Transformation)**
+- **DAX (Data Analysis Expressions)**
+- **Global Superstore Dataset (Kaggle)**
+- **GitHub (Project Version Control)**
+
+---
+
+## ⚙️ How to Run the Project
+
+1. Download and Install **[Power BI Desktop](https://powerbi.microsoft.com/desktop/)**.
+2. Clone this repository to your local machine:
+   ```bash
+   git clone https://github.com/gugulothubhavith/Retail360-PowerBI-Dashboard.git
+   ```
+3. Navigate to the directory and open `Retail360 – Global Sales Intelligence Dashboard.pbix`.
+4. Interact with the visuals, drillthroughs, and bookmarks to navigate the analytics!
 
 ---
 
@@ -189,8 +225,22 @@ Throughout this intensive program, I accomplished:
 
 This project was developed autonomously as the capstone evaluation to certify advanced proficiency in Power BI and enterprise-level Data Analytics.
 
+---
+
+## 📄 License
+
+This project is for educational and portfolio purposes. It is licensed under the **MIT License**.
+
+---
+
+## 📞 Contact
+
+- **LinkedIn:** [https://www.linkedin.com/in/gugulothubhavith](https://www.linkedin.com/in/gugulothubhavith)
+- **GitHub:** [https://github.com/gugulothubhavith](https://github.com/gugulothubhavith)
+
 <br/>
 <div align="center">
   <b>Designed & Developed by Gugulothu Bhavith</b> <br>
   <i>Empowering Business Through Data</i>
 </div>
+
