@@ -116,22 +116,30 @@ ADDCOLUMNS(
 )
 ```
 
-### 3. Advanced Features & Interactivity
-To transform the dashboard from a static report to a dynamic analytical application:
-- **Dynamic KPI Selectors:** Engineered disconnected slicers empowering users to toggle the primary metric of the dashboard (Sales vs. Units vs. Profit) in real-time, leveraging `SWITCH()` and `SELECTEDVALUE()`.
-- **Bookmark Navigation & Storytelling:** Crafted curated report states to walk users through an analytical "story" (e.g., smoothly transitioning from the 'Annual Global Summary' to 'Quarterly Regional Trends').
-- **Context-Sensitive Drillthrough:** Configured hierarchical drilldowns. Users can right-click a summarized product category bar chart and navigate straight to a detailed page isolated to that specific sub-category's inventory health and order logs.
-- **Smart Narrative AI Integration:** Deployed the Smart Narrative visual to auto-generate adaptive, human-readable text insights summarizing dynamic trends based on the filtered context.
-- **Responsive Hover Tooltips:** Designed bespoke report-page tooltips that activate on hover, exposing granular, context-specific metrics without cluttering the main UI.
+### 3. Executed Visuals & Layout Strategy
+The dashboard's visual architecture was meticulously designed for actionable insights:
+- **Comprehensive Overview Page:** Developed a structured main page anchoring massive KPI cards for Total Sales, Profit, Margin, and Year-to-Date (YTD) versus Last Year (LY) performance. Configured advanced line charts to visualize temporal sales trends alongside dedicated bar charts breaking down performance by geography and product category. Adhering to cognitive UX standards, all primary KPIs are strategically localized at the top-left to immediately capture stakeholder attention.
+- **Deep Dive Analytical Pages:** Fully implemented hierarchical drilldown architecture. Users interacting with a top-level product category bar chart on the main overview can seamlessly drill through to a secluded detail page. This deeper view isolates specific sub-category sales, inventory health, and logistical order details, allowing users to intuitively navigate from a summary view down to a highly filtered contextual report.
+- **Geographical & Trend Mapping:** Integrated geospatial map visuals to accurately plot revenue density across dispersed countries and states. Leveraged dense clustered column charts and intuitive treemaps to explicitly highlight top-grossing products at a glance.
+
+### 4. Advanced Interactivity & High-End Techniques
+The project pushes the boundaries of standard reporting by leveraging Power BI’s most advanced analytical capabilities:
+- **Dynamic KPI Selectors:** Engineered disconnected slicer tables utilizing `SWITCH` and `SELECTEDVALUE` DAX logic. This allows users to actively toggle the primary metric of the dashboard (shifting seamlessly between *Sales*, *Units*, or *Profit*), dynamically updating massive KPI cards globally without requiring multiple separate visuals.
+- **Narrative Storytelling via Bookmarks:** Programmed complex report states as Bookmarks to forge a guided analytical narrative. Users can click through "Annual Summary" and "Quarterly Trend" states identically to an interactive slide deck, surfacing high-level insights instantaneously.
+- **Context-Sensitive Drillthroughs:** Configured specialized drillthrough fields targeting precise grain data (e.g., specific Product Categories or Countries). Right-clicking any visual perfectly filters a dedicated dashboard page tailored explicitly to that single slice of data.
+- **Time Intelligence DAX Engine:** Engineered robust underlying DAX measures capitalizing on built-in Time-Intelligence. This powers rolling averages, definitive Year-over-Year (YOY) sales growth rates, and last-period variances to surface true business trajectories.
+- **Responsive Custom Tooltips:** Designed entirely bespoke report-page tooltips. Rather than standard text pop-ups, hovering over a yearly bar chart visually renders an entire mini-dashboard containing dense quarterly sub-breakdowns and auxiliary data.
+- **AI-Powered Smart Narratives:** Deployed Power BI's Smart Narrative visual. This AI integration actively interprets the data model to auto-generate contextual, human-readable insight summaries (e.g., *"Sales grew by 15% in FY2025, driven heavily by North American tech accessories"*), embedding automatic storytelling directly into the UI.
+- **Interactive Dimension Filtering:** Built an interconnected grid of intuitive slicers targeting date ranges (leveraging comparative relative date filtering), sweeping regions, and complex product hierarchies with full drill-down capabilities.
 
 ---
 
-## 🎨 Dashboard Design UX & Best Practices
+## 🎨 Dashboard Design UX & Refinement
 
-Adhering strictly to modern visual design principles for enterprise dashboards:
-- **Zero-Scroll, One-Page Summary:** The most critical aggregate KPIs sit at the top-left (the natural starting point of the human eye). The entire macro-view fits on a single screen.
-- **Cognitive Clarity:** Minimized visual noise. Removed unnecessary gridlines, minimized pie charts to <8 slices, and utilized a strictly cohesive corporate color palette.
-- **Data-to-Ink Ratio:** Used optimal chart types—bar/column charts for categorical comparison, line charts exclusively for temporal trends, and intuitive geographic map visuals.
+Adhering strictly to modern visual design and analytical refinement principles:
+- **Refinement & Polish:** Visuals are polished with highly consistent corporate color themes and perfectly clear alignment/titles. All cross-filtering and slicer interactions have been rigorously validated for intuitive performance.
+- **Zero-Scroll, One-Page Summary:** The main view fits entirely on a single screen without scrolling to present critical metrics immediately.
+- **Data-to-Ink Ratio:** Eliminated unnecessary visual clutter like background gridlines. Pie charts are strictly limited to <8 slices to guarantee instant cognitive readability.
 
 ---
 
