@@ -173,29 +173,85 @@ The expansive dashboard leverages Power BI’s most advanced analytical interact
 
 ---
 
-## 📸 Dashboard Snapshots
+## 📸 Dashboard Pages Overview
 
-Here is a glimpse of the Retail360 Global Sales Intelligence Dashboard:
+The **Retail360 Global Sales Intelligence Dashboard** is structured into multiple analytical pages. Each dashboard is designed to answer a specific business question and provide actionable insights for decision-makers.
 
-### 1. Executive Overview
+### 1. Executive Overview Dashboard
+The Executive Overview Dashboard provides a high-level summary of the overall retail performance across all regions, products, and customer segments. This page is designed for executives and decision-makers who need a quick snapshot of business performance.
+
 ![Executive Overview](Assets/Executive%20Overview.png)
 
-### 2. Product Analysis
-![Product Analysis](Assets/Product%20Analysis.png)
-
-### 3. Regional Analysis
-![Regional Analysis](Assets/Regional%20Analysis.png)
-
-### 4. Customer Insights
-![Customer Insights](Assets/Customer%20Insights.png)
-
-### 5. Product Details
-![Product Details](Assets/Product%20Details.png)
-
-### 6. Tooltip Sales
-![Tooltip Sales](Assets/Tooltip%20Sales.png)
+**Key Features:**
+- **Key Performance Indicators (KPIs):** Highlights critical metrics like **Total Sales**, **Total Profit**, **Total Orders**, and **Profit Margin**.
+- **Sales Trend Analysis:** A line chart visualizes growth over time, helping identify seasonal patterns and long-term revenue shifts.
+- **Category Sales Distribution:** Compares performance across Major Categories (Technology, Furniture, Office Supplies).
+- **Geographic Sales Visualization:** A global map displays sales distribution to identify high-performing markets and growth potential.
+- **Interactive Filters:** Dynamic slicers for Year, Category, Segment, Market, and Region.
 
 ---
+
+### 2. Product Performance Analysis Dashboard
+This dashboard focuses on evaluating the sales and profitability of products across different categories and sub-categories to identify top performers and discount impacts.
+
+![Product Analysis](Assets/Product%20Analysis.png)
+
+**Key Features:**
+- **Top Revenue-Generating Products:** Highlights the Top 10 products to understand customer preferences.
+- **Profit Contribution by Category:** Compares profitability across Technology, Office Supplies, and Furniture.
+- **Sub-Category Sales Performance:** Deep-dive analysis into segments like Phones, Copiers, Chairs, etc.
+- **Discount Impact on Profitability:** A scatter plot analyzes how discounts affect profit margins to optimize pricing strategies.
+
+---
+
+### 3. Regional Sales Performance Dashboard
+Focuses on understanding geographical sales variance to optimize marketing and logistics.
+
+![Regional Analysis](Assets/Regional%20Analysis.png)
+
+**Key Features:**
+- **Sales by Region:** Compares major business regions (Central, South, North, Oceania, Southeast Asia).
+- **Sales by Country:** Identifies top-performing nations like the US, Australia, France, China, and Germany.
+- **Sales by State:** Provides deeper geographical insights to understand regional demand patterns.
+
+---
+
+### 4. Customer Insights Dashboard
+Focuses on understanding customer behavior, segmentation, and purchasing patterns.
+
+![Customer Insights](Assets/Customer%20Insights.png)
+
+**Key Features:**
+- **Customer Segment Distribution:** Categorizes customers into Consumer, Corporate, and Home Office segments.
+- **Sales by Order Priority:** Visualizes distribution across Medium, High, Critical, and Low priority levels.
+- **Top Customers Analysis:** Highlights the most valuable customers to assist in loyalty program development.
+
+---
+
+### 5. Product Performance Details Dashboard
+Provides granular analysis at the product level for deeper exploration of sales, profit, and quantity sold.
+
+![Product Details](Assets/Product%20Details.png)
+
+**Key Features:**
+- **Top Products by Sales:** Monitors best-performing items to maintain inventory availability.
+- **Profit by Product:** Identifies high-margin vs. low-profit items to optimize pricing.
+- **Product Performance Table:** A detailed summary of Sales, Profit, and Quantity for deep-dive comparative analysis.
+
+---
+
+### 6. Custom Tooltip Dashboard
+Enhances user interaction by providing additional insights through mini-visualizations that appear when hovering over visuals.
+
+![Tooltip Sales](Assets/Tooltip%20Sales.png)
+
+**Key Features:**
+- **Tooltip Visualizations:** Displays **Sales by Sub-Category** and **Profit Distribution** on hover.
+- **Analytical Context:** Provides quick access to deeper insights without navigating away from the main view.
+- **Benefits:** Improves usability by reducing navigation complexity and providing instant contextual data.
+
+---
+
 
 ## 💡 Key Insights
 
