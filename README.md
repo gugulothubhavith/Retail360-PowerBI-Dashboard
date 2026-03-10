@@ -168,6 +168,7 @@ The expansive dashboard leverages Power BI’s most advanced analytical interact
 ```tree
 📦 Retail360-Global-Sales-Intelligence
  ┣ 📜 README.md                                             # Detailed Project Documentation
+ ┣ 📜 Retail360 – Global Sales Intelligence Dashboard.pbix  # Power BI Dashboard File
  ┗ 📂 Assets/                                               # Dashboard screenshots and assets 
 ```
 
@@ -280,8 +281,9 @@ Based on analytical modeling within the dashboard:
    ```bash
    git clone https://github.com/gugulothubhavith/Retail360-PowerBI-Dashboard.git
    ```
-2. Review the high-resolution dashboard screenshots located in the `Assets/` directory.
-3. Review the provided DAX formulas in this documentation to understand the backend analytical logic used in this project.
+2. Open the **`Retail360 – Global Sales Intelligence Dashboard.pbix`** file in Power BI Desktop to interact with the dashboard.
+3. Review the high-resolution dashboard screenshots located in the `Assets/` directory.
+4. Review the provided DAX formulas in this documentation to understand the backend analytical logic used in this project.
 
 
 ---
