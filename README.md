@@ -25,7 +25,7 @@
 | **University/Institute** | JNTUH University College of Engineering Palair |
 | **AICTE Student ID** | STU696c4be1c29041768704993 |
 | **Internship Title** | MICROSOFT ELEVATE \| Power BI \| 4-Week Virtual Internship |
-| **Duration** | 16 February 2026 – 12 March 2026 (Ongoing) |
+| **Duration** | 16 February 2026 – 12 March 2026 |
 
 ---
 
@@ -54,6 +54,7 @@ The dashboard is powered by robust, real-world representative data:
 
 1. **Global Superstore Sales (Fact Table):**
    - **Source:** [Kaggle Global Super-Store Dataset](https://www.kaggle.com/datasets/apoorvaappz/global-super-store-dataset)
+   - **Local File:** [`Global_Superstore2.csv`](Global%20Super%20Store%20Dataset/Global_Superstore2.csv)
    - Contains ~50,000 retail transaction records across 4 years.
    - Fields: `OrderDate`, `Region`, `Country`, `Sales`, `Profit`, `Quantity`, `Discount`.
 2. **Dimension Tables:**
@@ -167,9 +168,16 @@ The expansive dashboard leverages Power BI’s most advanced analytical interact
 
 ```tree
 📦 Retail360-Global-Sales-Intelligence
- ┣ 📜 README.md                                             # Detailed Project Documentation
- ┣ 📜 Retail360 – Global Sales Intelligence Dashboard.pbix  # Power BI Dashboard File
- ┗ 📂 Assets/                                               # Dashboard screenshots and assets 
+ ┣ 📂 Assets/                                               # Project Assets & Screenshots
+ ┃ ┣ 📂 Certificates/                                       # Official Internship Certificates (JPEG)
+ ┃ ┗ 📂 Dashboards/                                         # High-Resolution Dashboard Visuals
+ ┣ 📂 Global Super Store Dataset/                           # Raw Data Source
+ ┃ ┗ 📜 Global_Superstore2.csv                              # ~50,000 Retail Transactions
+ ┣ 📜 Retail360 – Global Sales Intelligence Dashboard.pbix  # Interactive Power BI Dashboard
+ ┣ 📜 Retail360 – Global Sales Intelligence Dashboard.pdf   # Static Analytical Report (PDF)
+ ┣ 📜 MS Elevate AICTE Internship - Project template - Feb 2026.pptx # Official Project Presentation
+ ┣ 📜 LICENSE                                               # MIT License
+ ┗ 📜 README.md                                             # Detailed Project Documentation
 ```
 
 ---
@@ -262,6 +270,44 @@ Based on analytical modeling within the dashboard:
 - **The United States was the dominant market** in terms of overall revenue.
 - **Discount-heavy products showed significantly lower profit margins.**
 - **A small group of clients contributed a disproportionately large share of revenue.**
+
+---
+
+---
+
+## 📜 Certifications
+
+As part of the **Microsoft Elevate Internship**, I have successfully earned the following certifications:
+
+- **[Microsoft Power BI INTERNSHIP](Assets/Certificates/MS%20Intern.jpg)**
+  - *Microsoft Elevate & AICTE*
+  - This certification validates the successful completion of a **4-week internship** on **Power BI – For Business Applications** under Emerging Technologies (Feb 16, 2026 – Mar 12, 2026).
+
+- **[Power BI](Assets/Certificates/Power%20BI.jpg)**
+  - *Advanced Data Analytics*
+  - Successfully completed a **20-Hour course** on **Power BI – For Business Applications** as part of the Microsoft Elevate initiative in collaboration with AICTE.
+
+- **[Artificial Intelligence & Machine Learning](Assets/Certificates/AI%20&%20ML.jpg)**
+  - *Core Machine Learning Concepts*
+  - Successfully completed a **20-Hour course** on **Artificial Intelligence & Machine Learning**, focusing on foundational concepts and practical enterprise applications.
+
+- **[Cloud Administration & Engineering](Assets/Certificates/Cloud.jpg)**
+  - *Azure Cloud Fundamentals*
+  - Successfully completed an intensive **40-Hour course** on **Cloud Administration & Engineering**, covering scalable infrastructure and enterprise cloud management.
+
+- **[Microsoft Azure](Assets/Certificates/MS%20Azure.jpg)**
+  - *Enterprise Cloud Infrastructure*
+  - Successfully completed a **25-Hour course** on **Microsoft Azure**, validating proficiency in cloud architecture and enterprise-grade deployment strategies.
+
+- **[Microsoft Copilot](Assets/Certificates/MS%20Copilot.jpg)**
+  - *AI-Powered Productivity*
+  - Successfully completed a **35-Hour course** on **Microsoft Copilot**, focusing on leveraging AI-powered tools to optimize professional workflows and drive operational efficiency.
+
+## 📂 Project Deliverables
+
+- **[Power BI Dashboard (.pbix)](Retail360%20–%20Global%20Sales%20Intelligence%20Dashboard.pbix)** - The main interactive file.
+- **[Analytical Report (.pdf)](Retail360%20–%20Global%20Sales%20Intelligence%20Dashboard.pdf)** - A frozen snapshot of the insights.
+- **[Project Presentation (.pptx)](MS%20Elevate%20AICTE%20Internship%20-%20Project%20template%20-%20Feb%202026.pptx)** - The official internship presentation template.
 
 ---
 
