@@ -189,7 +189,7 @@ The **Retail360 Global Sales Intelligence Dashboard** is structured into multipl
 ### 1. Executive Overview Dashboard
 The Executive Overview Dashboard provides a high-level summary of the overall retail performance across all regions, products, and customer segments. This page is designed for executives and decision-makers who need a quick snapshot of business performance.
 
-![Executive Overview](Assets/Executive%20Overview.png)
+![Executive Overview](Assets/Dashboards/Executive%20Overview.png)
 
 **Key Features:**
 - **Key Performance Indicators (KPIs):** Highlights critical metrics like **Total Sales**, **Total Profit**, **Total Orders**, and **Profit Margin**.
@@ -203,7 +203,7 @@ The Executive Overview Dashboard provides a high-level summary of the overall re
 ### 2. Product Performance Analysis Dashboard
 This dashboard focuses on evaluating the sales and profitability of products across different categories and sub-categories to identify top performers and discount impacts.
 
-![Product Analysis](Assets/Product%20Analysis.png)
+![Product Analysis](Assets/Dashboards/Product%20Analysis.png)
 
 **Key Features:**
 - **Top Revenue-Generating Products:** Highlights the Top 10 products to understand customer preferences.
@@ -216,7 +216,7 @@ This dashboard focuses on evaluating the sales and profitability of products acr
 ### 3. Regional Sales Performance Dashboard
 Focuses on understanding geographical sales variance to optimize marketing and logistics.
 
-![Regional Analysis](Assets/Regional%20Analysis.png)
+![Regional Analysis](Assets/Dashboards/Regional%20Analysis.png)
 
 **Key Features:**
 - **Sales by Region:** Compares major business regions (Central, South, North, Oceania, Southeast Asia).
@@ -228,7 +228,7 @@ Focuses on understanding geographical sales variance to optimize marketing and l
 ### 4. Customer Insights Dashboard
 Focuses on understanding customer behavior, segmentation, and purchasing patterns.
 
-![Customer Insights](Assets/Customer%20Insights.png)
+![Customer Insights](Assets/Dashboards/Customer%20Insights.png)
 
 **Key Features:**
 - **Customer Segment Distribution:** Categorizes customers into Consumer, Corporate, and Home Office segments.
@@ -240,7 +240,7 @@ Focuses on understanding customer behavior, segmentation, and purchasing pattern
 ### 5. Product Performance Details Dashboard
 Provides granular analysis at the product level for deeper exploration of sales, profit, and quantity sold.
 
-![Product Details](Assets/Product%20Details.png)
+![Product Details](Assets/Dashboards/Product%20Details.png)
 
 **Key Features:**
 - **Top Products by Sales:** Monitors best-performing items to maintain inventory availability.
@@ -252,7 +252,7 @@ Provides granular analysis at the product level for deeper exploration of sales,
 ### 6. Custom Tooltip Dashboard
 Enhances user interaction by providing additional insights through mini-visualizations that appear when hovering over visuals.
 
-![Tooltip Sales](Assets/Tooltip%20Sales.png)
+![Tooltip Sales](Assets/Dashboards/Tooltip%20Sales.png)
 
 **Key Features:**
 - **Tooltip Visualizations:** Displays **Sales by Sub-Category** and **Profit Distribution** on hover.
@@ -356,7 +356,7 @@ This project is for educational and portfolio purposes. It is licensed under the
 ## 📞 Contact
 
 - **LinkedIn:** [https://www.linkedin.com/in/gugulothubhavith](https://www.linkedin.com/in/gugulothubhavith)
-- **GitHub:** [https://github.com/gugulothubhavith](https://github.com/gugulothubhavith)
+- **GitHub:** [https://github.com/gugulothubhavith](https://github.com/gugulothubhavith2005)
 
 <br/>
 <div align="center">
